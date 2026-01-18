@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.model
+
+# Weights and models
+weights/
+*.h5
+*.hdf5
+
+# Data
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.tif
+*.npy
+*.npz
+datasets/
+data/
+results/
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Training outputs
+experiments/
+checkpoints/
+*.log
+*.out
+*.csv
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
