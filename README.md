@@ -82,12 +82,12 @@ python inference_and_metrics.py
 
 ## 📊 Evaluation
 
-### Paired Metrics (PSNR, SSIM)
+### Paired Metrics 
 ```bash
 python evaluation/calculate_pair.py
 ```
 
-### Unpaired Metrics (NIQE, etc.)
+### Unpaired Metrics 
 ```bash
 python evaluation/calculate_unpair.py
 ```
